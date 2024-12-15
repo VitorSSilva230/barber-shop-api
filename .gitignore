@@ -1,0 +1,5 @@
+.vs
+.github
+
+src/**/bin
+src/**/obj

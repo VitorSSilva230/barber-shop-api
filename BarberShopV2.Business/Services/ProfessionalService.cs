@@ -1,17 +1,12 @@
 ﻿using BarberShopV2.Business.Interfaces;
 using BarberShopV2.Business.Models;
 using BarberShopV2.Business.Models.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BarberShopV2.Business.Services
 {
     public class ProfessionalService : BaseService, IProfessionalService
     {
-        protected IProfessionalRepository _professionalRepository;
+        private IProfessionalRepository _professionalRepository;
 
         public ProfessionalService(IProfessionalRepository professionalRepository)
         {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BarberShopV2.Business.Enums
+﻿namespace BarberShopV2.Business.Enums
 {
     public enum Status
     {

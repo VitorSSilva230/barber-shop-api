@@ -1,17 +1,12 @@
 ﻿using BarberShopV2.Business.Interfaces;
 using BarberShopV2.Business.Models;
 using BarberShopV2.Business.Models.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BarberShopV2.Business.Services
 {
-    internal class AppointmentService : BaseService, IAppointmentService
+    public class AppointmentService : BaseService, IAppointmentService
     {
-        protected IAppointmentRepository _appointmentRepository;
+        private IAppointmentRepository _appointmentRepository;
 
         public AppointmentService(IAppointmentRepository appointmentRepository)
         {
